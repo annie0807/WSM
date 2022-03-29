@@ -4,9 +4,7 @@
 
 要執行此程式直接打以上指令即可。執行後會回傳retrieve的 NewsID 及其 score，如下圖：
 
-![](./result.PNG)
-
-
+![image](./result.PNG)
 
 
 

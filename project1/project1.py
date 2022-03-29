@@ -159,12 +159,12 @@ if __name__ == '__main__':
                 documents.append(doc1)
                 
     query = ["Trump Biden Taiwan China"]
-    '''
+    
     vectorSpace_tf = VectorSpace(documents, 'tf')
     
     rank_cos = vectorSpace_tf.printresult(query, files,10,'cos')  #60% 前30: 100% 
     rank_euc = vectorSpace_tf.printresult(query, files, 10,'eucli')  #50% 前30: 80%
-    '''
+    
     vectorSpace_tfidf = VectorSpace(documents,'tf-idf')
     
     rank_cos_tfidf = vectorSpace_tfidf.printresult(query,files, 10,'cos')#70% #前30個100%

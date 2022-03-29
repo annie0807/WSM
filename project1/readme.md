@@ -1,7 +1,9 @@
 # readme
+
+## 第一二題：
+
 執行 
 '''python project1.py'''
-
 要執行此程式直接打以上指令即可。執行後會回傳retrieve的 NewsID 及其 score，如下圖：
 
 ![image](./result.PNG)
@@ -31,4 +33,17 @@ explanation:
 
 **printresult(query, files, n, mode):** 可以印出結果
 共有四個變數，query已設定為["Trump Biden Taiwan China"]；files則為documents的檔案名稱；n可以選擇要印出前n個結果；mode則為調整計算score時是使用cosine similarity 還是 euclidean distance，在這邊用’cos’或’eucli’ 調整mode。
+
+
+## 第三題：
+
+執行 
+'''python project1_bonus.py'''
+要執行此程式直接打以上指令即可。執行後會回傳retrieve的 NewsID 及其 score，如下圖：
+
+
+![image](./result2.PNG)
+
+
+這邊會跑出tf 及tfidf的cosine similarity的結果。可以調整的function同上。
 
